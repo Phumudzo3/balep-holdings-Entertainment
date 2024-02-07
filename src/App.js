@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+/* eslint-disable react/jsx-pascal-case */
 import './App.css';
+import { Banner } from './component/Banner';
+import Booking from './component/Booking';
+import { Footer } from './component/Footer';
+import { Map } from './component/Map';
+import { Section_info } from './component/Section_info';
+
+
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App ">
+
+    <Banner/>
+    <Section_info/>
+    <Booking/>
+   <Map/>
+    <Footer/>
+    
+     
     </div>
   );
 }

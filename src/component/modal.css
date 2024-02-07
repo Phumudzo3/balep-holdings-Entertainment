@@ -1,0 +1,14 @@
+p{
+    text-align: center;
+    margin-top: 60px;
+}
+.chats{
+  position: relative;
+  bottom: 50px;
+}
+.chats_link{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
