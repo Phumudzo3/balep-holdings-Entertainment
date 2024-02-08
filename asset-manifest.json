@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/balep-holdings-Entertainment/static/css/main.c4194d81.css",
-    "main.js": "/balep-holdings-Entertainment/static/js/main.03a4807b.js",
+    "main.css": "/balep-holdings-Entertainment/static/css/main.46eabb21.css",
+    "main.js": "/balep-holdings-Entertainment/static/js/main.d4845587.js",
     "index.html": "/balep-holdings-Entertainment/index.html",
-    "main.c4194d81.css.map": "/balep-holdings-Entertainment/static/css/main.c4194d81.css.map",
-    "main.03a4807b.js.map": "/balep-holdings-Entertainment/static/js/main.03a4807b.js.map"
+    "main.46eabb21.css.map": "/balep-holdings-Entertainment/static/css/main.46eabb21.css.map",
+    "main.d4845587.js.map": "/balep-holdings-Entertainment/static/js/main.d4845587.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4194d81.css",
-    "static/js/main.03a4807b.js"
+    "static/css/main.46eabb21.css",
+    "static/js/main.d4845587.js"
   ]
 }
