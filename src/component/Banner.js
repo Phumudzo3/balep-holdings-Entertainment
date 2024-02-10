@@ -2,7 +2,7 @@ import React from 'react'
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 import { Header } from './Header';
-
+import './banner.css';
 
 const spanStyle = {
   padding: '20px',
@@ -18,10 +18,12 @@ const divStyle = {
   
   height: '780px'
 }
+
+
 const slideImages = [
   {
     original: process.env.PUBLIC_URL + "./images/xxxxxxxxx.jpg",
-    caption: 'Bhe sound system(BHE) Balep Holding Entertainment'
+    // caption : 'Bhe sound system(BHE) Balep Holding Entertainment'
   },
   {
     original: process.env.PUBLIC_URL + "./images/xx.jpg",

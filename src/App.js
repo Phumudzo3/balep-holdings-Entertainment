@@ -1,7 +1,8 @@
 /* eslint-disable react/jsx-pascal-case */
 import './App.css';
 import { Banner } from './component/Banner';
-import Booking from './component/Booking';
+
+import { BookingForm } from './component/BookingForm';
 import { Footer } from './component/Footer';
 import { Map } from './component/Map';
 import { Section_info } from './component/Section_info';
@@ -15,7 +16,7 @@ function App() {
 
     <Banner/>
     <Section_info/>
-    <Booking/>
+  <BookingForm/>
    <Map/>
     <Footer/>
     

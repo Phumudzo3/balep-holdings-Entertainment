@@ -6,21 +6,24 @@
 
 
 
-@media (max-width: 1202px) {
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
     .map-box{
    background: red;
 max-width: 100%;
 position: relative;
-left: -120px;
+left: -130px;
+bottom: 200px;
 
    }
     }
-    @media (max-width: 1273px) {
+    @media only screen and (max-width: 600px) {
         .map-box{
+            max-width: 100%;
             background: red;
          max-width: 100%;
          position: relative;
      max-width: 100%;
-    margin-left: 190px;
+    margin-left: 80px;
+    bottom: 450px;
         }
     }

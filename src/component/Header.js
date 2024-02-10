@@ -106,15 +106,15 @@ export const Header = () => {
       </CustomModal>
 
       <CustomModal isOpen={isBookingModalOpen} onClose={closeBookingModal}>
-        
-       <Booking />
+      <br/><br/><br/><br/><br/>
+       <Booking  />
       </CustomModal>
 
       <CustomModal isOpen={isAboutModalOpen} onClose={closeAboutModal} >
         <div className='info_business'>
         <span><img className='image_image prt-imag' src='\images\dd.jpg' width={400} height={200} alt='x' /></span>
 <div className='intro p-intro'>
-<br/><br/>
+
 <h4>BHE sound system(BHE) Balep Holding Entertainment</h4>
 <h5>Best sound. best service</h5>
 <span >
@@ -137,7 +137,7 @@ Choose BHE for your sound system needs, and let us transform your event into a s
 
       {/* Rest of the header */}
      
-        <img className='image-logo' src='\images\logo.jpg' width={120} height={80} alt='x' />
+        <img className='c' src='\images\logo.jpg' width={120} height={80} alt='x' />
     
       <div className='nav'>
         <span onClick={openContactModal}>Contact</span>
